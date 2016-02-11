@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<applicationProperties>
+  <applicationProperty name="language" displayName="Language" type="string" required="true" defaultValue="en" placeholder="Enter default local language">
+  	<description>This property is used to set default language in different regions</description>
+  </applicationProperty>
+
+  <applicationProperty name="log_enabled" displayName="Enable Logging" type="boolean" required="false" defaultValue="false">
+  	<description>This property is used to enable/disable the application log</description>
+  </applicationProperty>
+  
+  <applicationProperty name="log_level" displayName="Default Log Level" type="integer" defaultValue="1">
+        <description>This property is used to set the log level</description>
+  </applicationProperty>
+</applicationProperties>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- model definition sample -->
+<model-definitions xmlns="http://www.drutt.com/msdp/hwap/ds/model/v1">
+    <entryspace name="samplename">
+        <entry keyType="STRING">
+            <index name="sample_index" type="STRING" alias="sample_alias"/>
+        </entry>
+        <subentry keyType="STRING">
+            <index name="sample_index" type="STRING" />
+        </subentry>
+        <tags>
+            <tag name="sample_tag"/>
+        </tags>
+    </entryspace>
+</model-definitions>
